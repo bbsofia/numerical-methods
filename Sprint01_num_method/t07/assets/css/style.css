@@ -1,0 +1,71 @@
+QPlainTextEdit {
+    background: rgba(117, 190, 218, 0.0);
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font: 400 18px 'Arial';
+    letter-spacing: 5px;
+}
+
+
+QScrollBar:vertical {              
+    border: none;
+    background: white;
+    width: 3px;               
+    margin: 0px 0px 0px 0px;
+}
+
+QPushButton {
+
+    background: rgba(117, 190, 218, 0.0);
+    font: 400 18px 'Arial';
+    letter-spacing: 3px;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgba(117, 190, 218, 0.0);
+}
+
+QPushButton:hover {
+    transition: all 3s ease-out;
+    background: rgba(197, 197, 197, 0.246);
+}
+
+QPushButton:focus {
+    background: rgba(84, 205, 253, 0.445);
+    border-bottom: none;
+}
+
+#file {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+#file:focus {
+    border: 2px solid white;
+    color: lightgrey;
+    background: rgba(197, 197, 197, 0.246);
+}
+
+#result {
+    line-height: 20px;
+    color: white;
+    font: 400 16px 'Arial';
+    background-color: rgba(179, 213, 226, 0.26);
+    border-radius: 20px;
+}
+
+#checkit {
+    border: 2px solid white;
+    background: rgba(117, 190, 218, 0.0);
+    border-radius: 20px;
+}
+
+#checkit:hover {
+    transition: all 3s ease-out;
+    background: rgba(197, 197, 197, 0.246);
+}
+
+#checkit:focus {
+    background: rgba(84, 205, 253, 0.445);
+}
